@@ -375,6 +375,7 @@ input, select, textarea {
 		display: inline-block;
 		margin-right: 4.5rem;
 		font-size: 2rem;
+		margin-top: 2rem
 	}
 	.socials a{
 		border: none;
@@ -500,6 +501,7 @@ input, select, textarea {
 		background: #348cb2 bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
+		width: 100vw !important;
 		left: 0;
 		opacity: 1;
 		position: fixed;
