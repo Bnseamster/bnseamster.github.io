@@ -9,6 +9,10 @@
 		<title>Brandon Seamster's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -30,7 +34,7 @@
 								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
-						<br>
+						
 						
 						<section class='see-more'>
 							<div class='btn-container'>
@@ -51,7 +55,7 @@
 				<!-- Projects -->
 					<section class='container projects'>
 						<h2>My Projects & Clients</h2>
-						<br>
+						
 						<section class='grid'>
 							<section class='project card'>
 								<img class='project-img' src='assets/css/images/trainify.PNG' alt="project1-snapshot">
@@ -64,7 +68,7 @@
 							</section>
 							<section class='project card'>
 								<img class='project-img' src='assets/css/images/matrix.PNG' alt="project1-snapshot">
-								<h2 class='project-title'>The Matrix Rain</h2>
+								<h2 class='project-title'>Matrix Rain</h2>
 								<p class='project-description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi eos labore obcaecati quisquam dicta? Asperiores, velit libero. Provident, ab magnam quis eveniet quasi eos numquam sapiente, animi vel enim explicabo.</p>
 								<a rel='noreferrer noopener' target='_blank' href='https://codepen.io/Brando512/full/mdrLERY'>
 									<button class='chk-it-out-btn' >Check It Out!</button>
@@ -83,7 +87,7 @@
 								<img class='project-img' src='assets/css/images/calculator.PNG' alt="project1-snapshot">
 								<h2 class='project-title'>Calulator</h2>
 								<p class='project-description'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi eos labore obcaecati quisquam dicta? Asperiores, velit libero. Provident, ab magnam quis eveniet quasi eos numquam sapiente, animi vel enim explicabo.</p>
-								<button class='chk-it-out-btn' href='www.google.com'>Check It Out!</button>
+								<button class='chk-it-out-btn' href='https://codepen.io/Brando512/pen/RwGMqYN'>Check It Out!</button>
 							</section>
 							<section class='project card'>
 								<img class='project-img' src='assets/css/images/pizzanow.PNG' alt="project1-snapshot">
@@ -94,7 +98,48 @@
 								</a>
 							</section>
 						</section>
+					</section>
 
+					<section class='container contact'>
+						<section class='contact-info'>
+							<h2>Contact Info</h2>
+							<section>
+								<p><span>Phone:</span> +1 (714) 471-1234</p>
+								<p><span>Email:</span> Bnseamster@gmail.com</p>
+							</section>
+							<section class='socials'>
+								<ul>
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>	
+						</section>
+						<section class='form-container'>
+							
+							<form id='contact' name="contact" method="POST" data-netlify="true">
+								<h2>Contact me</h2>
+								<section class='input-wrapper'>
+									<p>
+									  <input placeholder='Name' type="text" name="name" />   
+									</p>
+								</section>
+								<section class='input-wrapper'>
+									<p>
+									  <input placeholder="Email" type="email" name="email" />
+									</p>
+								</section>
+								<section class='input-wrapper'>
+									<p>
+									  <textarea placeholder='Message...' name="message"></textarea>
+									</p>
+								</section>			
+								<p>
+								  <button type="submit">Send</button>
+								</p>
+							  </form>
+						</section>
 					</section>
 				<!-- Footer -->
 					<footer id="footer">

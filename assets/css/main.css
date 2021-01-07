@@ -101,7 +101,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Poppins','Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -303,8 +303,17 @@ input, select, textarea {
 			
 		}
 
-		.container h2{
-			font-size: 4rem;
+		.container.contact{
+			background: white;
+		}
+
+		.container .project.card h2{
+			font-size: 3.5rem;
+			margin: 1rem 0 2rem 0;
+			line-height: 3.5rem;
+		}
+		.contact h2{
+			font-size: 2rem;
 			margin: 1rem 0 2rem 0;
 			line-height: 3.5rem;
 		}
@@ -351,11 +360,98 @@ input, select, textarea {
 			transform: none;
 			object-fit: contain;
 			border-bottom: 1px solid #cfcfcf;
-
 			display: block;
-;
 		}
+	
+	.socials{
+		width: 100%;
+		margin: 2rem 0;
+	}
+	.socials ul li{
+		display: inline-block;
+		margin-right: 4.5rem;
+		font-size: 2rem;
+	}
+	.socials a{
+		border: none;
+		position: absolute; 
+	}
 
+	.socials a:hover{
+		color: rgb(83, 83, 83);
+	}
+
+	.contact-info{
+		margin-left: 4rem;
+		margin-top: 1rem;
+		width: 65vw;
+		position: relative;
+	}
+	
+	.contact-info p{
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	.contact-info section{
+		padding: 0 50px;
+	}
+	
+	.container.contact{
+		display: flex;
+		flex-direction: row;
+		text-align: left;
+		margin: 0 5
+	}
+
+	.form-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background: #bbebff;
+		width: 35vw;
+		border-radius: 20px;
+		padding: 1rem;
+		box-shadow: 6px 5px 9px rgba(101, 101, 101, 0.336);
+		margin: 0 5vw;
+		min-width: 361px;
+	}
+
+	.form-container #contact{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 85%;
+		text-align: left;
+	}
+	.input-wrapper{
+		text-align: left;
+		margin: .25rem 0;
+		width: 100%;
+	}
+	.input-wrapper input, textarea{
+		background: #ffffffba;
+		border: grey;
+		border-radius: 20px;
+		color: black;
+		width: 100%;
+		padding: .5rem 1rem;
+	}
+	.input-wrapper textarea{
+		min-height: 150px;
+	}
+	.form-container button{
+		width: 100%;
+		border-radius: 20px;
+		border: none;
+		background-color: #348cb2
+		
+	}
+
+	.input-wrapper input:focus, textarea:focus{
+		outline: none;
+	}
 	
 	img{
 		object-fit: cover;
@@ -1057,7 +1153,14 @@ input, select, textarea {
 		#bg {
 			background-size: 750px auto;
 			width: 2250px;
-		} }
+		} 
+	}
+
+
+
+	
+		
+
 
 /* Mobile */
 
@@ -1169,6 +1272,36 @@ input, select, textarea {
 			} 
 	
 			
+
+			
+	}
+
+	@media screen and (max-width: 960px){
+		
+		/* Contact Section */
+
+		.container.contact{
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.contact-info{
+			position: static;
+			margin: 0;
+		}
+		.contact-info > section{
+			padding: 0;
+		}
+		.form-container{
+			margin-top: 4rem;
+			width: none;
+			max-width: 65vw;
+		}
+		.socials{
+			padding: 0;
+		}
+	
+	}
 
 /* Mobile (Portrait) */
 
