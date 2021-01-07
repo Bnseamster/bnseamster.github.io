@@ -277,7 +277,7 @@ input, select, textarea {
 		opacity: 0;
 	
 		top: 0;
-		width: 100%;
+		width: 100vw;
 	}
 
 	.container{
