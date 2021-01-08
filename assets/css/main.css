@@ -79,6 +79,7 @@ input, select, textarea {
 	html {
 		box-sizing: border-box;
 		scroll-behavior: smooth;
+		overflow-x: hidden;
 	}
 
 	*, *:before, *:after {
@@ -87,6 +88,7 @@ input, select, textarea {
 
 	body {
 		overflow-x: hidden;
+		position: relative;
 		background: #fff;
 		width: 100vw;
 		
@@ -1307,6 +1309,9 @@ input, select, textarea {
 		}
 		.socials{
 			padding: 0;
+		}
+		.ul{
+			text-align: center;
 		}
 	
 	}
