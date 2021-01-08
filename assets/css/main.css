@@ -1299,7 +1299,7 @@ input, select, textarea {
 			position: static;
 			margin: 0;
 			padding: 0 2rem;
-			width: none;
+			width: 100%;
 		}
 		.contact-info section > *{
 			font-size: 1.64rem;
