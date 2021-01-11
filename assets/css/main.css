@@ -310,7 +310,7 @@ input, select, textarea {
 		    justify-content: center;
 			align-items: center;
 			flex-direction: column;
-			padding: 0 1rem;
+			padding: 0 2rem;
 		}
 		
 		.about h2{
@@ -491,7 +491,6 @@ input, select, textarea {
 	}
 
 	.about-me-paragraph{
-		width: 50vw;
 		text-align: left;
 		line-height: 2.4rem;
 
