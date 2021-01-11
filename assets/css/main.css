@@ -1305,6 +1305,14 @@ input, select, textarea {
 			align-items: center;
 			justify-content: center;
 		}
+		.abt-me-container{
+			width: 80vw;
+			padding: 0;
+		}
+		.about-me-paragraph{
+			width: 100%;
+			font-size: 1.5rem;
+		}
 
 		/* Contact Section */
 		.container.contact{
@@ -1315,9 +1323,18 @@ input, select, textarea {
 		.contact-info{
 			position: static;
 			margin: 0;
-			padding: 0 2rem;
-			width: 80%;
-			
+			padding: 0;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.socials{
+			text-align: center;
+		}
+		.contact h2{
+			text-align: center;
+			width: 100%;
 		}
 		.contact-info section > *{
 			font-size: 1.64rem;
