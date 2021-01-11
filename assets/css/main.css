@@ -301,8 +301,20 @@ input, select, textarea {
 			font-size: 2rem;
 			padding: 2rem 0;
 			min-height: 700px;
+			display: flex;
+			flex-direction: row;
+		}
+		.abt-me-container{
+			width: 50vw;
+    		display: flex;
+		    justify-content: center;
 			align-items: center;
-			justify-content: center;
+			flex-direction: column;
+			padding: 0 1rem;
+		}
+		
+		.about h2{
+			font-size: 2rem;
 		}
 
 		.container.projects{
@@ -313,7 +325,7 @@ input, select, textarea {
 			background: white;
 		}
 
-		.container .project.card h2{
+		.container h2{
 			font-size: 3.5rem;
 			margin: 1rem 0 2rem 0;
 			line-height: 3.5rem;
@@ -339,7 +351,7 @@ input, select, textarea {
 			transition: all .2s ease-in-out;
 			margin: 4rem 1rem;
 			overflow: hidden;
-			box-shadow: 6px 5px 9px rgba(101, 101, 101, 0.336);
+			box-shadow: 1px 5px 14px rgba(101, 101, 101, 0.2);
 			font-size: 17pt;
 		
 
@@ -391,7 +403,7 @@ input, select, textarea {
 	.contact-info{
 		margin-left: 4rem;
 		margin-top: 1rem;
-		width: 65vw;
+		width: 64vw;
 		position: relative;
 	}
 	
@@ -417,10 +429,10 @@ input, select, textarea {
 		align-items: center;
 		justify-content: center;
 		background: #bbebff;
-		width: 35vw;
+		width: 36vw;
 		border-radius: 20px;
 		padding: 1rem;
-		box-shadow: 6px 5px 9px rgba(101, 101, 101, 0.336);
+		box-shadow: 1px 5px 14px rgba(101, 101, 101, 0.2);
 		margin: 0 5vw;
 		min-width: 361px;
 	}
@@ -465,23 +477,24 @@ input, select, textarea {
 		height: 100%;
 		position: relative;
     	transform: scale(1.7);
-    	left: -160px;
-    	top: -59px;
+    	left: -278px;
+    	top: -102px;
 		
 	}
 	.me{
-		height: 15rem;
-		width: 15rem;
+		height: 24rem;
+		width: 24rem;
 		overflow: hidden;
-		border-radius: 50%;
+		border-radius: 9%;
 		margin-bottom: 2rem;
-		
+		box-shadow: 1px 5px 14px rgba(101, 101, 101, 0.2);
 	}
 
 	.about-me-paragraph{
 		width: 50vw;
-		margin: 0 25vw;
+		text-align: left;
 		line-height: 2.4rem;
+
 	}
 /* BG */
 
@@ -1288,8 +1301,13 @@ input, select, textarea {
 
 	@media screen and (max-width: 960px){
 		
-		/* Contact Section */
+		.container.about{
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 
+		/* Contact Section */
 		.container.contact{
 			flex-direction: column;
 			align-items: center;
@@ -1299,7 +1317,7 @@ input, select, textarea {
 			position: static;
 			margin: 0;
 			padding: 0 2rem;
-			width: 100%;
+			
 		}
 		.contact-info section > *{
 			font-size: 1.64rem;
