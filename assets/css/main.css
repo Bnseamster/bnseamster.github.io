@@ -380,6 +380,9 @@ input, select, textarea {
 			border-bottom: 1px solid #cfcfcf;
 			display: block;
 		}
+		.project-description{
+			text-align: left;
+		}
 	
 	.socials{
 		width: 100%;
