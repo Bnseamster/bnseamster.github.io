@@ -1288,6 +1288,9 @@ body {
 .timeline .content p {
   margin: 0;
 }
+.resume section h2{
+  font-size: 2.5rem;
+}
 .education .timeline{
   padding-bottom: 3rem;
 }
