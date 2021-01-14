@@ -383,6 +383,18 @@ input, select, textarea {
 		.project-description{
 			text-align: left;
 		}
+	.resume{
+		display: flex;
+		flex-direction: row;
+		
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.education, .workexperience{
+		padding: 0 2rem;
+		
+	}
 	
 	.socials{
 		width: 100%;
@@ -1315,6 +1327,17 @@ input, select, textarea {
 		.about-me-paragraph{
 			width: 100%;
 			font-size: 1.5rem;
+		}
+		
+		.resume{
+			flex-direction: column;
+		}
+		.workexperience{
+			margin-top: 2.5rem;
+		}
+		.workexperience, .education{
+			max-width: 80%;
+
 		}
 
 		/* Contact Section */
