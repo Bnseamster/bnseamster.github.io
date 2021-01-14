@@ -1231,7 +1231,7 @@ body {
 
 .timeline .timeline-container {
   padding-left: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   position: relative;
   background-color: inherit;
   width: 100%;
@@ -1282,10 +1282,18 @@ body {
 .timeline .content h3 {
   font-size: 20px;
   margin: 10px 0;
+  font-weight: 500;
 }
 
 .timeline .content p {
   margin: 0;
+}
+.education .timeline{
+  padding-bottom: 3rem;
+}
+.workexperience .timeline .content p{
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 .timeline span.line {
