@@ -1226,7 +1226,7 @@ body {
 /* === Timeline === */
 .timeline {
   position: relative;
-  width: 450px;
+  max-width: 450px;
 }
 
 .timeline .timeline-container {
