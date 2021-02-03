@@ -187,16 +187,16 @@ input, select, textarea {
 	}
 	.chk-it-out-btn{
 		margin-top: 3rem;
-		border: 1px solid black;
+		border: 1px solid #348cb2;
 		width: 9rem;
 		height: 3rem;
 		border-radius: 8px;
-		color: black;
+		color: white;
 		transition: all .2s ease-in-out;
+		background-color: #348cb2;
 	}
 	.chk-it-out-btn:hover{
-		color: rgb(112, 112, 112);
-		border-color:  rgb(112, 112, 112);
+		color: rgb(187, 187, 187);
 		transform: scale(1.1);
 	}
 /* Icon */
@@ -370,7 +370,7 @@ input, select, textarea {
 		}
 		
 		.project.card:hover{
-			transform: scale(1.015); 
+			/* transform: scale(1.015);  */
 		}
 		.project.card .project-img{
 			margin-bottom: 2rem;
@@ -383,8 +383,19 @@ input, select, textarea {
 			border-bottom: 1px solid #cfcfcf;
 			display: block;
 		}
+		.project.card .btn-container{
+			display: flex;
+			position: absolute;
+			flex-direction: column;
+			bottom: 4rem;
+			left: 0;
+			justify-content: flex-end;
+			height: auto;
+		}
 		.project-description{
 			text-align: left;
+			margin-bottom: 7rem;
+
 		}
 	.resume{
 		display: flex;
