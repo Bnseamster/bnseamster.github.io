@@ -1339,6 +1339,9 @@ input, select, textarea {
 			width: 80vw;
 			padding: 0;
 		}
+		.abt-me-container.text{
+			align-items: center;
+		}
 		.about-me-paragraph{
 			width: 100%;
 			font-size: 1.5rem;
