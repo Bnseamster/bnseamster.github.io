@@ -316,6 +316,9 @@ input, select, textarea {
 			flex-direction: column;
 			padding: 0 2rem;
 		}
+		.abt-me-container.text{
+			align-items: flex-start;
+		}
 		
 		.about h2{
 			font-size: 2rem;
