@@ -196,7 +196,7 @@ input, select, textarea {
 		background-color: #348cb2;
 	}
 	.chk-it-out-btn:hover{
-		color: rgb(187, 187, 187);
+		color: #d0e3eb;
 		transform: scale(1.1);
 	}
 /* Icon */
