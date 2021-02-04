@@ -290,11 +290,12 @@ input, select, textarea {
 		min-height: 400px;
 		width: 100%;
 		margin: 0;
+		padding: 4rem 2rem;
 		background-color: #e8f7fd;
 		color: black;
 		display: flex;
 		flex-direction: column;
-		padding: 4rem 0;
+
 	}
 	.section-heading{
 		text-decoration: underline;
@@ -302,7 +303,7 @@ input, select, textarea {
 		.container.about{
 
 			font-size: 2rem;
-			padding: 2rem 0;
+			padding: 2rem 2rem;
 			min-height: 700px;
 			display: flex;
 			flex-direction: row;
